@@ -17,7 +17,7 @@ export default function FirstPage(): React.ReactElement {
         <img className='cursor-none' src="https://media.tenor.com/KTx1WW-lmfUAAAAi/peach-and-goma-peach-goma.gif" />
         <h1 className="select-none text-2xl font-bold text-center text-pink-600">Will you be my Valentine?</h1>
         <div>
-            <Link to="/sec" id="yes" className="select-none cursor-pointer px-6 py-3 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors duration-300">Yes</Link>
+            <Link to="/Valentine/sec" id="yes" className="select-none cursor-pointer px-6 py-3 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors duration-300">Yes</Link>
             <button onClick={changeButtonPosition} onMouseEnter={changeButtonPosition} id="no" className="select-none cursor-pointer px-6 py-3 bg-gray-300 text-gray-700 rounded-full hover:bg-gray-400 transition-colors duration-300 ml-4">No</button>
         </div>
     </>
